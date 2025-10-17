@@ -1,0 +1,48 @@
+# AWS SAM build artifacts
+.aws-sam/
+.aws/
+.awscli/
+awscliv2.zip
+aws-sam-cli-linux-x86_64.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+env/
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# VS Code settings
+.vscode/
+# stuff you accidentally pulled into the repo
+aws/
+sam-installation/
+awscliv2.zip
+aws-sam-cli-linux-*.zip
+
+# SAM/Python common
+.aws-sam/
+__pycache__/
+*.pyc
+dist/
+build/
+.env
+venv/
+.venv/
+
+# VS Code / OS
+.vscode/
+.DS_Store
